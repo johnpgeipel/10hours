@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Space+Mono:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=VT323&display=swap');
 
 * {
@@ -50,4 +48,19 @@ span {
 
 .countdown-el span {
     font-size: 1.3rem;
+}
+
+@media screen and (max-width: 368px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .big-text {
+        font-size: 1.5rem;
+        margin: 1rem 1rem;
+    }
+
+    .countdown-el span {
+        font-size: 0.75rem;
+    }
 }
